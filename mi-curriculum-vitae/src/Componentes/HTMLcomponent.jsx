@@ -7,7 +7,6 @@ import ubicacion from '../assets/imagenes/alfiler.png'
 export default function HTMLcomponent() {
   return (
     <div>
-      <p>creando un nuevo parrafo para hacer el commit a gitHub y ver si funciona el link de la pagina</p>
       <div className='cv-page'>
         <div className="left-bar">
           <div className="img-item">
