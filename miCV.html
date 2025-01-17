@@ -61,6 +61,23 @@
         margin-bottom: 20px;
       }
 
+      .contact-info a {
+        text-decoration: none;
+        color: inherit;
+      }
+
+      .contact-info a:visited {
+        color: inherit;
+      }
+
+      .contact-info a {
+        color: #333;
+      }
+
+      .contact-info a:hover {
+        color: var(--secondary-color);
+      }
+
       @media (max-width: 768px) {
         .grid {
           grid-template-columns: 1fr;
@@ -85,10 +102,30 @@
           <section class="section">
             <h2>Contact Information</h2>
             <div class="contact-info">
-              <p>📞 +549 221-4357963</p>
-              <p>✉️ matiasgema12@gmail.com</p>
-              <p>📸 Instagram: @mati.gema</p>
-              <p>💼 LinkedIn: Juan Matias Gema</p>
+              <p>
+                📞<a
+                  href="https://wa.me/5492214357963?text=Hola,%20me%20gustaría%20obtener%20más%20información."
+                  target="_blank"
+                >
+                  Enviar mensaje por WhatsApp
+                </a>
+              </p>
+              <p>
+                ✉️
+                <a href="mailto:matiasgema12@gmail.com"
+                  >matiasgema12@gmail.com</a
+                >
+              </p>
+              <p>
+                📸 Instagram:
+                <a href="https://www.instagram.com/mati.gema/">@mati.gema</a>
+              </p>
+              <p>
+                💼 LinkedIn:
+                <a href="https://www.linkedin.com/in/matias-gema-766964303/"
+                  >Juan Matias Gema</a
+                >
+              </p>
               <p>📍 La Plata, Buenos Aires, Argentina</p>
             </div>
           </section>
