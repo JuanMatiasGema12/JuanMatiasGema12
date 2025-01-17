@@ -12,8 +12,10 @@ Hello! 👋 I am **Juan Matias Gema**, a passionate **Full Stack** designer with
 
 1. ![JavaScript Icon](assets/javascript--v1.png) **JavaScript | TypeScript**
 2. ![React Icon](assets/react-native.png) **React | NextJs**
-3. ![NestJs Icon](<assets/descarga%20(1).png>) **NestJs | Express**
-4. ![NodeJs Icon](assets/nodejs.png) **NodeJs**
+3. ![NestJS](https://nestjs.com/img/logo.svg =32x32)
+   **NestJs | Express**
+4. ![Node.js](https://nodejs.org/static/images/logos/nodejs-new-pantone-black.svg =32x32)
+   **NodeJs**
 5. ![WebSocket Icon](assets/webSocket.png) **WebSocket**
 
 ### 🗄 Databases:
