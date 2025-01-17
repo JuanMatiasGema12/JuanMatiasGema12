@@ -12,11 +12,11 @@ Hello! 👋 I am **Juan Matias Gema**, a passionate **Full Stack** designer with
 
 1. ![JavaScript Icon](assets/javascript--v1.png) **JavaScript | TypeScript**
 2. ![React Icon](assets/react-native.png) **React | NextJs**
-3. ![NestJS](assets/nestjs.png)
+3. ![NestJS](assets/icons8-transportado-48.png)
    **NestJs | Express**
 4. ![Node.js](assets/nodeJsPicture.png)
    **NodeJs**
-5. ![WebSocket Icon](assets/webSocket.png) **WebSocket**
+5. ![WebSocket Icon](assets/icons8-azure-relay-hybrid-connection-48.png) **WebSocket**
 
 ### 🗄 Databases:
 
@@ -39,7 +39,7 @@ Hello! 👋 I am **Juan Matias Gema**, a passionate **Full Stack** designer with
 ## 📌 My Focus:
 
 1. ![API Icon](assets/api-settings.png) **Design and development of efficient and secure APIs.**
-2. ![Architecture Icon](assets/2018080-200.png) **Implementation of industrial architectures in backend using NodeJs and NestJs.**
+2. ![Architecture Icon](assets/icons8-desarrollo-backend-48.png) **Implementation of industrial architectures in backend using NodeJs and NestJs.**
 3. ![Frontend Icon](assets/web-design.png) **Development of interactive frontend applications with NextJs and TailwindCSS.**
 4. ![Database Icon](assets/external-database-devices-flatart-icons-outline-flatarticons.png) **Management and optimization of relational and non-relational databases.**
 
