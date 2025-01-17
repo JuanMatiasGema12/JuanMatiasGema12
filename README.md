@@ -14,7 +14,7 @@ Hello! 👋 I am **Juan Matias Gema**, a passionate **Full Stack** designer with
 2. ![React Icon](assets/react-native.png) **React | NextJs**
 3. ![NestJS](assets/icons8-transportado-48.png)
    **NestJs | Express**
-4. ![Node.js](assets/nodeJsPicture.png)
+4. ![Node.js](assets/icons8-nodejs-48.png)
    **NodeJs**
 5. ![WebSocket Icon](assets/icons8-azure-relay-hybrid-connection-48.png) **WebSocket**
 
