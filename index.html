@@ -10,6 +10,7 @@
         --secondary-color: #3498db;
         --text-color: #333;
         --background-color: #f4f4f4;
+        --highlight-color: #f5f5f5; /* Gris aún más claro para destacar */
       }
 
       body {
@@ -78,6 +79,26 @@
         color: var(--secondary-color);
       }
 
+      /* Estilos para resaltar la sección del Portfolio con un gris muy claro */
+      .portfolio-section {
+        background-color: var(--highlight-color);
+        padding: 20px;
+        border-radius: 8px;
+        margin-top: 20px;
+        text-align: center; /* Centrar el contenido */
+      }
+
+      .portfolio-section a {
+        color: #333;
+        font-weight: bold;
+        text-decoration: none;
+      }
+
+      .portfolio-section a:hover {
+        color: var(--secondary-color);
+        text-decoration: underline;
+      }
+
       @media (max-width: 768px) {
         .grid {
           grid-template-columns: 1fr;
@@ -133,9 +154,28 @@
           <section class="section">
             <h2>About Me</h2>
             <p>
-              Third-year Bachelor's Degree in Systems student. Dedicated,
-              hardworking, quick learner with strong soft skills and team
-              experience. Passionate about programming and client interaction.
+              I'm a third-year Bachelor's student in Systems, with a strong
+              grasp of programming and system architecture. I am eager to learn
+              and stay updated with the latest technologies.
+            </p>
+            <p>
+              I’m dedicated, hardworking, and quick to adapt. I enjoy overcoming
+              challenges and continuously improving my skills to deliver
+              efficient solutions.
+            </p>
+            <p>
+              My teamwork and communication skills are well-developed, allowing
+              me to collaborate effectively and lead when needed to achieve
+              goals on time.
+            </p>
+            <p>
+              Passionate about programming, I thrive in creating user-focused
+              solutions and engaging with clients to deliver meaningful results.
+            </p>
+            <p>
+              Additionally, I hold a C2 Proficiency level in English, which
+              enables me to communicate effectively in professional environments
+              and work on global projects.
             </p>
           </section>
 
@@ -144,7 +184,7 @@
             <h3>Cortez Restaurant, La Plata</h3>
             <p>
               <strong>March 2018 - August 2022:</strong> Waiter, staff
-              organizer, cocktail preparer, barista
+              organizer, bartender, barista
             </p>
             <p>
               <strong>August 2022 - September 2023:</strong> Restaurant staff
@@ -156,10 +196,10 @@
             <h2>Education</h2>
             <p>
               <strong>Bachelor's Degree in Systems</strong> - University of La
-              Plata (2018 - Ongoing)
+              Plata (2018 - Currently)
             </p>
             <p>
-              <strong>English Language Studies</strong> - June 2018 - Ongoing
+              <strong>English Language Studies</strong> - June 2018 - Currently
             </p>
             <p>
               <strong>High School and Elementary Education</strong> - San
@@ -172,14 +212,14 @@
           <section class="section">
             <h2>Technologies and Skills</h2>
             <p>
-              <strong>Languages and Frameworks:</strong> JavaScript, TypeScript,
-              React, NextJs, NestJs, Express, NodeJs, WebSocket
+              <strong>Backend Development:</strong> JavaScript, TypeScript,
+              NestJs, Express, NodeJs, WebSocket
             </p>
-            <p><strong>Databases:</strong> PostgreSQL, MongoDB</p>
             <p>
               <strong>Frontend Development:</strong> HTML5, CSS, Bootstrap,
-              TailwindCSS
+              TailwindCSS, React, NextJs
             </p>
+            <p><strong>Databases:</strong> PostgreSQL, MongoDB</p>
             <p><strong>Environments:</strong> Windows</p>
           </section>
 
@@ -200,11 +240,15 @@
             </p>
           </section>
 
-          <section class="section">
-            <h2>Note</h2>
+          <section class="section portfolio-section">
+            <h2>Portfolio</h2>
             <p>
-              Currently building portfolio. Looking forward to showcasing skills
-              and projects soon.
+              <a
+                href="https://juanmatiasgema-portfolio.vercel.app/"
+                target="_blank"
+              >
+                💼 My Portfolio
+              </a>
             </p>
           </section>
         </div>
