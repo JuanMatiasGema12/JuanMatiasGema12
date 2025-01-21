@@ -50,6 +50,7 @@ Hello! 👋 I am **Juan Matias Gema**, a passionate **Full Stack** designer with
 1. ![LinkedIn Icon](assets/linkedin.png) **LinkedIn:** [Juan Matias Gema](https://www.linkedin.com/in/matias-gema-766964303/)
 2. ![Instagram Icon](assets/instagram-new.png) **Instagram:** [@mati.gema](https://www.instagram.com/mati.gema)
 3. ![Phone Icon](assets/phone.png) **Personal Phone:** +549 221-4357963
+4. ![Email Icon](assets/email.png)**Personal Email:** matiasgema12@gmail.com
 
 ---
 
