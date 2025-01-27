@@ -3,255 +3,124 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Juan Matias Gema - CV</title>
+    <title>Juan Matias Gema - Curriculum Vitae</title>
     <style>
-      :root {
-        --primary-color: #2c3e50;
-        --secondary-color: #3498db;
-        --text-color: #333;
-        --background-color: #f4f4f4;
-        --highlight-color: #f5f5f5;
-      }
-
       body {
-        font-family: "Arial", sans-serif;
+        font-family: Arial, sans-serif;
         line-height: 1.6;
-        color: var(--text-color);
-        background-color: var(--background-color);
-        margin: 0;
+        color: #333;
+        max-width: 800px;
+        margin: 0 auto;
         padding: 20px;
       }
-
-      .container {
-        max-width: 900px;
-        margin: 0 auto;
-        background-color: white;
-        padding: 40px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        border-radius: 8px;
+      h1,
+      h2,
+      h3 {
+        color: #2c3e50;
       }
-
-      h1 {
-        color: var(--primary-color);
-        border-bottom: 2px solid var(--secondary-color);
-        padding-bottom: 10px;
-        margin-top: 0;
-      }
-
       h2 {
-        color: var(--secondary-color);
-        margin-top: 20px;
-        margin-bottom: 10px;
+        border-bottom: 1px solid #2c3e50;
+        padding-bottom: 5px;
       }
-
-      .grid {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 30px;
-      }
-
       ul {
         padding-left: 20px;
-      }
-
-      .contact-info p {
-        margin: 5px 0;
-      }
-
-      .contact-info a {
-        text-decoration: none;
-        color: inherit;
-      }
-
-      .contact-info a:visited {
-        color: inherit;
-      }
-
-      .contact-info a:hover {
-        color: var(--secondary-color);
-      }
-
-      .portfolio-section,
-      .courses-section .highlight-box {
-        background-color: var(--highlight-color);
-        padding: 20px;
-        border-radius: 8px;
-        text-align: center;
-        margin-top: 20px;
-      }
-
-      .portfolio-section a,
-      .courses-section .highlight-box a {
-        color: #333;
-        font-weight: bold;
-        text-decoration: none;
-      }
-
-      .portfolio-section a:hover,
-      .courses-section .highlight-box a:hover {
-        color: var(--secondary-color);
-        text-decoration: underline;
-      }
-
-      @media (max-width: 768px) {
-        .grid {
-          grid-template-columns: 1fr;
-        }
-
-        body {
-          padding: 10px;
-        }
-
-        .container {
-          padding: 20px;
-        }
       }
     </style>
   </head>
   <body>
-    <div class="container">
+    <header>
       <h1>Juan Matias Gema - Curriculum Vitae</h1>
+    </header>
 
-      <div class="grid">
-        <div>
-          <section class="section">
-            <h2>Contact Information</h2>
-            <div class="contact-info">
-              <p>
-                📞<a
-                  href="https://wa.me/5492214357963?text=Hola,%20me%20gustaría%20obtener%20más%20información."
-                  target="_blank"
-                >
-                  Enviar mensaje por WhatsApp
-                </a>
-              </p>
-              <p>
-                ✉️
-                <a href="mailto:matiasgema12@gmail.com"
-                  >matiasgema12@gmail.com</a
-                >
-              </p>
-              <p>
-                📸 Instagram:
-                <a href="https://www.instagram.com/mati.gema/">@mati.gema</a>
-              </p>
-              <p>
-                💼 LinkedIn:
-                <a href="https://www.linkedin.com/in/matias-gema-766964303/">
-                  Juan Matías Gema</a
-                >
-              </p>
-              <p>📍 La Plata, Buenos Aires, Argentina</p>
-            </div>
-          </section>
+    <section>
+      <h2>Contact Information</h2>
+      <ul>
+        <li>Email: matiasgema12@gmail.com</li>
+        <li>Location: La Plata, Buenos Aires, Argentina</li>
+        <li>LinkedIn: Juan Matías Gema</li>
+      </ul>
+    </section>
 
-          <section class="section">
-            <h2>About Me</h2>
-            <p>
-              I'm a third-year Bachelor's student in Systems, with a strong
-              grasp of programming and system architecture. I am eager to learn
-              and stay updated with the latest technologies.
-            </p>
-            <p>
-              I’m dedicated, hardworking, and quick to adapt. I enjoy overcoming
-              challenges and continuously improving my skills to deliver
-              efficient solutions.
-            </p>
-            <p>
-              My teamwork and communication skills are well-developed, allowing
-              me to collaborate effectively and lead when needed to achieve
-              goals on time.
-            </p>
-            <p>
-              Passionate about programming, I thrive in creating user-focused
-              solutions and engaging with clients to deliver meaningful results.
-            </p>
-            <p>
-              Additionally, I hold a C2 Proficiency level in English, which
-              enables me to communicate effectively in professional environments
-              and work on global projects.
-            </p>
-          </section>
+    <section>
+      <h2>Professional Summary</h2>
+      <p>
+        Third-year Bachelor's student in Systems with strong programming and
+        system architecture skills. Passionate about creating user-focused
+        solutions and staying updated with the latest technologies. Excellent
+        teamwork and communication skills, with a C2 Proficiency level in
+        English. Adaptable, hardworking, and committed to delivering efficient
+        solutions.
+      </p>
+    </section>
 
-          <section class="section">
-            <h2>Work Experience</h2>
-            <h3>Cortez Restaurant, La Plata</h3>
-            <p>
-              <strong>March 2018 - August 2022:</strong> Waiter, staff
-              organizer, bartender, barista
-            </p>
-            <p>
-              <strong>August 2022 - September 2023:</strong> Restaurant staff
-              manager, event organizer, stock manager, cash register closer
-            </p>
-          </section>
+    <section>
+      <h2>Work Experience</h2>
+      <h3>Cortez Restaurant, La Plata</h3>
+      <h4>Restaurant Staff Manager (August 2022 - September 2023)</h4>
+      <ul>
+        <li>Managed restaurant staff</li>
+        <li>Organized events</li>
+        <li>Managed stock</li>
+        <li>Handled cash register closing</li>
+      </ul>
+      <h4>
+        Waiter, Staff Organizer, Bartender, Barista (March 2018 - August 2022)
+      </h4>
+      <ul>
+        <li>Performed various roles in restaurant operations</li>
+      </ul>
+    </section>
 
-          <section class="section">
-            <h2>Education</h2>
-            <p>
-              <strong>Bachelor's Degree in Systems</strong> - University of La
-              Plata (2018 - Currently)
-            </p>
-            <p>
-              <strong>English Language Studies</strong> - June 2018 - Currently
-            </p>
-            <p>
-              <strong>High School and Elementary Education</strong> - San
-              Cayetano School, La Plata
-            </p>
-          </section>
-        </div>
+    <section>
+      <h2>Education</h2>
+      <ul>
+        <li>
+          Bachelor's Degree in Systems - University of La Plata (2018 - Present)
+        </li>
+        <li>English Language Studies (June 2018 - Present)</li>
+        <li>
+          High School and Elementary Education - San Cayetano School, La Plata
+        </li>
+      </ul>
+    </section>
 
-        <div>
-          <section class="section">
-            <h2>Technologies and Skills</h2>
-            <p>
-              <strong>Backend Development:</strong> JavaScript, TypeScript,
-              NestJs, Express, NodeJs, WebSocket
-            </p>
-            <p>
-              <strong>Frontend Development:</strong> HTML5, CSS, Bootstrap,
-              TailwindCSS, React, NextJs
-            </p>
-            <p><strong>Databases:</strong> PostgreSQL, MongoDB</p>
-            <p><strong>Environments:</strong> Windows</p>
-          </section>
+    <br /><br /><br />
 
-          <section class="section">
-            <h2>Languages</h2>
-            <ul>
-              <li>English: Advanced</li>
-              <li>Portuguese: Basic</li>
-              <li>Italian: Basic</li>
-            </ul>
-          </section>
+    <section>
+      <h2>Technical Skills</h2>
+      <ul>
+        <li>
+          Backend Development: JavaScript, TypeScript, NestJs, Express, NodeJs,
+          WebSocket
+        </li>
+        <li>
+          Frontend Development: HTML5, CSS, Bootstrap, TailwindCSS, React,
+          NextJs
+        </li>
+        <li>Databases: PostgreSQL, MongoDB</li>
+        <li>Environments: Windows</li>
+      </ul>
+    </section>
 
-          <section class="section courses-section">
-            <h2>Courses</h2>
-            <div class="highlight-box">
-              <p>
-                🎓
-                <a href="https://www.soyhenry.com/" target="_blank"
-                  >Fullstack Developer at Henry Code</a
-                >
-                (2024/2025)
-              </p>
-            </div>
-          </section>
+    <section>
+      <h2>Languages</h2>
+      <ul>
+        <li>English: Advanced (C2 Proficiency)</li>
+        <li>Portuguese: Basic</li>
+        <li>Italian: Basic</li>
+      </ul>
+    </section>
 
-          <section class="section portfolio-section">
-            <h2>Portfolio</h2>
-            <p>
-              <a
-                href="https://juanmatiasgema-portfolio.vercel.app/"
-                target="_blank"
-              >
-                💼 My Portfolio
-              </a>
-            </p>
-          </section>
-        </div>
-      </div>
-    </div>
+    <section>
+      <h2>Certifications</h2>
+      <ul>
+        <li>Fullstack Developer at Henry Code (2024/2025)</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Portfolio</h2>
+      <p>Available upon request</p>
+    </section>
   </body>
 </html>
